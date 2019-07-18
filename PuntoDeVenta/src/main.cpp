@@ -17,7 +17,7 @@
 ESP8266WiFiMulti WiFiMulti;
 WebSocketsClient webSocket;
 
-#define USE_SERIAL Serial1
+#define USE_SERIAL Serial
 
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
 
