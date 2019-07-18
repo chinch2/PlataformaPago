@@ -59,7 +59,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
 
 void setup() {
 	// USE_SERIAL.begin(921600);
-	USE_SERIAL.begin(115200);
+	USE_SERIAL.begin(9600);
 
 	//Serial.setDebugOutput(true);
 	USE_SERIAL.setDebugOutput(true);
